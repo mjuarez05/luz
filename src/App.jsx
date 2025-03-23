@@ -17,7 +17,7 @@ const controlarLampara = async (accion) => {
     <section>
     <div className='botonera'>
       <button className='prende'onClick={() => controlarLampara("encender")}>Encender</button>
-      <button className='apaga'prende'onClick={() => controlarLampara("apagar")}>Apagar</button>
+      <button className='apaga'onClick={() => controlarLampara("apagar")}>Apagar</button>
     </div>
     </section>
   );
