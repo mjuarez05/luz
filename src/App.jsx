@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
 const [estado, setEstado] = useState("apagada");
-const RASPBERRY_IP = "http://192.168.0.159:5000";
+const RASPBERRY_IP = "http://192.168.0.221:5000";
 
 const controlarLampara = async (accion) => {
     try {
